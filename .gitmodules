@@ -1,0 +1,3 @@
+[submodule "EmbeddingNet"]
+	path = EmbeddingNet
+	url = git@github.com:RocketFlash/EmbeddingNet.git
