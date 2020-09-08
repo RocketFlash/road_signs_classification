@@ -1,0 +1,13 @@
+simple_split:
+    - remove all classes with <15 samples
+simple_split_sampled:
+    - remove all classes with <15 samples
+    - sample 100 images in classes with >100 samples
+    - train=0.6 , val=0.2, test=0.2
+simple_split_sampled_2:
+    - remove all classes with <15 samples
+    - sample 100 images in classes with >100 samples
+    - train=0.792, val=0.008, test=0.2
+simple_split_2:
+    - all data
+    - select 1 sample for validation in classes with >4 samples
